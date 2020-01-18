@@ -9,41 +9,6 @@ class Review {
         this.delete()
     }
 
-    // render() {
-        
-    //     let userComment = document.querySelector('.user-comment')
-    //     let comment = document.querySelector('#comment')
-    //     let commentDiv = document.createElement('div')
-
-    //     commentDiv.classList.add('com-user')
-    //     commentDiv.id = this.id
-
-    //     commentDiv.innerHTML =
-    //     `<h2>Create Comment</h2>
-    //     <label>Name:</label>
-    //     <br>
-    //     <input type="text" name="name">
-    //     <br>
-    //     <label>Comment:</label>
-    //     <br>
-    //     <textarea name="comment" id="comment-name" cols="10" rows="9"></textarea>
-    //     <br>
-    //     <button class='button-submit' data-id=${this.id}>Submit</button>`
-
-    //     userComment.innerHTML = ""
-
-    //     userComment.append(commentDiv)
-
-    //     comment.innerHTML += 
-    //     `<div id = "review-${this.id}">
-    //         <div>name: ${this.name}</div>
-    //         <div>comment: ${this.content}</div> 
-    //         <button data-id=${this.id} class='clear' id='delete'>delete</button> 
-    //         <input type='text'> <button data-id=${this.id} class='re-due' id='edit'>edit</button>
-    //     </div>`
-
-    // }
-
 
     render() {
 
