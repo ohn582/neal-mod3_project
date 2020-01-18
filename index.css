@@ -1,0 +1,100 @@
+ /* background */
+ body 
+  {
+    background: url("https://www.lionfishlair.com/wp-content/uploads/2014/06/black-grey-gradient-background-for-web.jpg")
+  }
+
+ .col-md-8
+  {
+    background: rgb(65, 64, 64);
+    color: rgb(255, 255, 255);
+  }
+
+/*------------------------------------------------------------------*/ 
+  /* .col-md-4
+  {
+    background: rgb(119, 62, 0);
+    color: rgb(211, 211, 211);
+  } */
+/*------------------------------------------------------------------*/ 
+
+  /* For the product button list */
+  .list-group-item {
+    background-color: rgb(59, 59, 59);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+
+  .list-group-item:hover {
+    background-color: rgb(200, 138, 22);
+    color: rgb(0, 0, 0);
+  }
+
+/* For the delete comment button */
+.clear {
+  background-color: rgb(255, 30, 30);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.clear:hover {
+  background-color: rgb(175, 2, 2);
+  color: rgb(255, 255, 255);
+}
+
+
+/* For the edit comment button */
+.re-due {
+  background-color: DodgerBlue;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.re-due:hover {
+  background-color: RoyalBlue;
+  color: rgb(255, 255, 255);
+}
+
+
+/* For the submit comment button */
+.button-submit {
+  background-color: rgb(29, 255, 40);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-submit:hover {
+  background-color: rgb(0, 156, 13);
+  color: rgb(255, 255, 255);
+}
+
+.title {
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+}
