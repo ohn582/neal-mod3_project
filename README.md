@@ -7,3 +7,6 @@ For my backend(rails API) of this project, I've created 2 diffrent models: Elect
 For my models, I was using mixing two diffrent style of code, for my eletronics, I used objected orented behavior with crud using the read method.
 
 For my frontend(js, html, css) project, what I add some interesting details using CSS code. For this code, I want my buttons to change colors every time I hover my mouse over the button. To make it work, I use '(className:hover)' in css that will allow the mouse to create an effect such as changing color for the electronics and comment buttons. As for JavaScript, I've created "electronics.js" to create a Object Oriented language with a get method. As for the review, I want the users to create, delete, and update a commet to that spacific item using 'POST', 'DELETE', and 'PATCH'.
+
+
+Link to my Backend of the project: https://github.com/ohn582/mod3_backend_project.git
