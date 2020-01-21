@@ -41,12 +41,8 @@ class Electronic {
                 let p = document.createElement('p')
                 let h2 = document.createElement('h2')
                 let br7 = document.createElement('br')
-                // let erase = document.createElement('button')
 
                 img.setAttribute('src', product.image)
-                // erase.setAttribute('class', 'asxerase')
-                // erase.setAttribute('data-id', product.id)
-                // erase.setAttribute('id', 'clear')
 
                 h1.innerText = product.name
                 p.innerText = product.description
