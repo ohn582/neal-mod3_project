@@ -17,20 +17,21 @@ getEletronics()
 
 
 
+
 // // getReviews
 function getReviews() {
     return fetch('http://localhost:3000/reviews')
-        .then(res => res.json())
+    .then(res => res.json())
+    .then((userReview) => 
+        userReview.forEach(user =>{
+            // console.log(user)
+            const { id, name, content } = user
+            new Review(id, name, content)
+        })
+    )
 }
-getReviews().then((usersArr) => {
-    // console.log(eleArr)
-    usersArr.forEach((userReview) => {
-        const { id, name } = userReview
-        const content = userReview["It's good"]
-        new Review(id, name, content)
-    })
-})
 
+getReviews()
 
 
 
