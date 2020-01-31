@@ -23,7 +23,7 @@ class Electronic {
     }
 
     info(){
-        let itemButton = document.querySelector(".list-group")
+        let itemButton = document.getElementById(`${this.id}`)
         itemButton.addEventListener('click', (evt) => {
             // debugger
             fetchItem(evt.target)
