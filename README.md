@@ -1,6 +1,6 @@
 MOD 3 JAVASCRIPT PROJECT: 
 
-For this project, my app focuses on creating a simple electronics review app. This simple app allows any public users to pick any electronics and commenting on that specific electronic. Once the user picks a specific electronic, it will show the title, image and info about that spacific item.
+For this project, my app focuses on creating a simple electronics review web blog. This simple app allows any public users to pick any electronics and commenting on that specific electronic. Once the user picks a specific electronic, it will show the title, image and info about that spacific item.
 
 For my backend(rails API) of this project, I've created 2 diffrent models: Electronics(showing the list of products such as phines, tablets, etc), and Reviews(for commenting a spacific electronic). For these models, Electronics has many Reviews and Reviews belongs to Electronics. 
 
